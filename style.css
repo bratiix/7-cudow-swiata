@@ -54,6 +54,9 @@ nav a {
     transition: all 0.3s;
     animation: bounce 2s infinite;
 }
+nav{
+    width: 100%;
+}
 
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
@@ -309,4 +312,5 @@ footer {
     text-align: center;
     padding: 2rem;
     margin-top: 3rem;
+
 }
